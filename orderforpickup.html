@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>home</title>
+</head>
+<style>
+nav{
+position:absolute;
+left:300px;
+top:5px;
+}
+.e{
+background-color:#333333;
+}
+li{
+display:inline;
+margin-left:80px;
+padding:20px;
+}
+a{
+color:white;
+text-decoration:none;
+font-size:20px;
+}
+.dropdown-menu{
+display:none;
+position:absolute;
+left:200px;
+background-color:#413C39;
+padding:15px;
+}
+.dropdown{
+width:200px;
+}
+.dropdown:hover .dropdown-menu{
+display:block;
+}
+.nav-link{
+display:inline;
+margin-left:20px;
+}
+.drop-item{
+margin-top:15px;
+}
+button{
+padding:15px;
+background-color:#F5A800;
+border-radius:20px;
+position:absolute;
+left:900px;
+top:60px;
+} 
+.flex-container{
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+color:white;
+}
+.p{
+position:absolute;
+color:white;
+left:300px;
+font-size:40px;
+}
+.g{
+position:absolute;
+color:white;
+left:600px;
+font-size:40px;
+top:300px;
+}
+.btn-1{
+padding:15px;
+background-color:#F5A800;
+border-radius:20px;
+position:absolute;
+left:300px;
+top:50px;
+width:100px;
+}
+</style>
+<body style="background-color:#816941">
+<div class="e">
+<h1 style="color:white;">MoCCafe</h1>
+</div>
+<nav>
+<ul>
+<li class="nav-link"><a class="nav-item" href="coffee.html">Home</a></li>
+<li class="nav-link"><a class="nav-item" href="about.html">about</a></li>
+<li class="nav-link dropdown"><a class="nav-item" href="services.html">Services</a>
+<ul class="dropdown-menu">
+<li class="drop-item"><a href="">A dare to dream</a></li>
+<li class="drop-item"><a href="">business development</a></li>
+<li class="drop-item"><a href="">creating a space</a></li>
+<li class="drop-item"><a href="">discovering coffee</a></li>
+<li class="drop-item"><a href="">finding a location</a></li>
+<li class="drop-item"><a href="">preparing to open</a></li>
+</li>
+</ul>
+<li class="nav-link"><a class="nav-item" href="contact.html">contact</a></li>
+<li class="nav-link"><a class="nav-item" href="orderforpickup.html">orderforpickup</a></li>
+</ul>
+</nav>
+<h1 style="color:white;">cofee Roasting</h1>
+<button class="btn-new">order now</button>
+<div class="flex-container">
+<div class="child">
+<p>Online<br><br>Ordering/Pickup<br><br>Details</p>
+</div>
+<div class="child">
+<p>Please make sure you select the correct pick-up location when placing your order.<br><br> We'll place your items on our pick-up table in front of the shop.<br><br> Thank you!</p>
+</div>
+</div>
+<div class="p">
+<p>Your favorite drinks and eats are just a click</p>
+</div>
+<div class="g">
+<p>away!</p>
+<button class="btn-1">order now</button>
+</div>
+</body>
+</html>

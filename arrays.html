@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // sorting of strings
+        // a=['b','d','r','f','m']
+        // a.sort()
+        // document.write(a+"<br>")
+        // sorting integers in descending order
+        // a=[1,23,5,6,98,99,46,22,45,64,60,23,12,18]
+        // a.sort(function(a,b){return(b-a)})
+        // document.write(a+"<br>")
+        a=[1,2,3,45,5]
+        b=[18,19,12]
+        a.reverse()
+        document.write(a+"<br>")
+        a.sort()
+        document.write(a+"<br>")
+        a.pop()
+        document.write(a+"<br>")
+        a.push(5)
+        document.write(a+"<br>")
+        a.shift()
+        document.write(a+"<br>")
+        a.unshift(5,6,7)
+        document.write(a+"<br>")
+        a.splice(2,3,0,10,11,12)
+        document.write(a+"<br>")
+        a.splice(0,1)
+        document.write(a+"<br>")
+        document.write(a.join("#")+"<br>")
+        a=a.slice(2,5)
+        document.write(a+"<br>")
+        b=a.concat(b)
+        document.write(b+"<br>")
+
+
+    </script>
+    
+</body>
+</html>
